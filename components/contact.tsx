@@ -110,7 +110,7 @@ export default function Contact() {
             <TooltipTrigger>
               <a
                 className="social-btn hover:text-primary block transform text-gray-400 opacity-[0.001] transition-colors duration-200 hover:scale-110"
-                href="https://wa.me/01118551388"
+                href="https://wa.me/201118551388"
                 target="_blank"
                 aria-label="whatsapp"
               >

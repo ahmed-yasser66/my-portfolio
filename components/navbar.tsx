@@ -62,7 +62,7 @@ export default function Navbar() {
                 ))}
                 <a
                   className="bg-primary hover:bg-opacity-90 rounded-full px-4 py-2 text-sm font-medium text-white transition-colors dark:bg-white dark:text-[#121317] dark:hover:bg-white/85"
-                  href="https://wa.me/01118551388"
+                  href="https://wa.me/201118551388"
                   target="_blank"
                 >
                   Contact Me
