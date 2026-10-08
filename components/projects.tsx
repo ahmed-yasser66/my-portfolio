@@ -5,7 +5,7 @@ export default function Projects() {
   const projectsList = [
     {
       name: "Eshop E-commerce",
-      imgUrl: "/images/ESHOP.webp",
+      imgUrl: "/images/eshop.webp",
       description:
         "A fast and intuitive e-commerce platform with seamless shopping experience. Features product browsing, detailed views, and streamlined checkout process with mobile-first design.",
       demoUrl: "https://eshop-ecommerce-eight.vercel.app",
@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       name: "MovieMaze",
-      imgUrl: "/images/MOVIEMAZE.webp",
+      imgUrl: "/images/moviemaze.webp",
       description:
         "Comprehensive movie and TV series discovery platform. Explore detailed information, cast details, ratings, and trailers with intelligent recommendations and lightning-fast search.",
       demoUrl: "https://movie-maze-gamma.vercel.app",
@@ -25,7 +25,7 @@ export default function Projects() {
     },
     {
       name: "GYMLY",
-      imgUrl: "/images/GYMLY.webp",
+      imgUrl: "/images/gymly.webp",
       description:
         "Fitness platform featuring comprehensive exercise library with detailed instructions and muscle targeting. Structured workout plans for all skill levels.",
       demoUrl: "https://gymly-one.vercel.app",
@@ -45,7 +45,7 @@ export default function Projects() {
     // },
     {
       name: "SPYLT",
-      imgUrl: "/images/SPYLT.webp",
+      imgUrl: "/images/spylt.webp",
       description:
         "A scroll-based product experience for SPYLT, a soda drink brand. The project combines smooth scroll-driven animations, product storytelling, and interactive visual effects while maintaining high performance and achieving a 100 Lighthouse performance score.",
       demoUrl: "https://spylt-rho-silk.vercel.app/",
