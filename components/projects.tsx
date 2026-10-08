@@ -44,10 +44,10 @@ export default function Projects() {
     //   background: "#e1e1e1",
     // },
 
-    
+
     {
       name: "SPYLT",
-      imgUrl: "/images/spylt.webp",
+      imgUrl: "/images/SPYLT.webp",
       description:
         "A scroll-based product experience for SPYLT, a soda drink brand. The project combines smooth scroll-driven animations, product storytelling, and interactive visual effects while maintaining high performance and achieving a 100 Lighthouse performance score.",
       demoUrl: "https://spylt-rho-silk.vercel.app/",
