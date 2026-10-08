@@ -43,6 +43,8 @@ export default function Projects() {
     //   stack: ["Next.js", "Tailwind CSS", "Framer Motion", "EmailJS"],
     //   background: "#e1e1e1",
     // },
+
+    
     {
       name: "SPYLT",
       imgUrl: "/images/spylt.webp",
