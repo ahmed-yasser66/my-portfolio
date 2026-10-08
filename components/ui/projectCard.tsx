@@ -101,7 +101,7 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
           <Image
             ref={imageRef}
             alt={project.name}
-            className="h-64 w-full rounded-xl object-contain lg:grayscale transition-all duration-500 will-change-transform group-hover:grayscale-0 md:h-80"
+            className="w-full rounded-xl object-cover lg:grayscale transition-all duration-500 will-change-transform group-hover:grayscale-0 aspect-auto"
             src={project.imgUrl}
             width={800}
             height={600}

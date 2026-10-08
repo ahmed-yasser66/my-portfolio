@@ -1,5 +1,3 @@
-import { ArrowRight, GithubIcon } from "lucide-react";
-import Image from "next/image";
 import ProjectCard from "./ui/projectCard";
 import RevealText from "./ui/RevealText";
 
@@ -7,7 +5,7 @@ export default function Projects() {
   const projectsList = [
     {
       name: "Eshop E-commerce",
-      imgUrl: "/images/eshop.webp",
+      imgUrl: "/images/ESHOP.webp",
       description:
         "A fast and intuitive e-commerce platform with seamless shopping experience. Features product browsing, detailed views, and streamlined checkout process with mobile-first design.",
       demoUrl: "https://eshop-ecommerce-eight.vercel.app",
@@ -17,7 +15,7 @@ export default function Projects() {
     },
     {
       name: "MovieMaze",
-      imgUrl: "/images/moviemaze.webp",
+      imgUrl: "/images/MOVIEMAZE.webp",
       description:
         "Comprehensive movie and TV series discovery platform. Explore detailed information, cast details, ratings, and trailers with intelligent recommendations and lightning-fast search.",
       demoUrl: "https://movie-maze-gamma.vercel.app",
@@ -27,7 +25,7 @@ export default function Projects() {
     },
     {
       name: "GYMLY",
-      imgUrl: "/images/gymly.webp",
+      imgUrl: "/images/GYMLY.webp",
       description:
         "Fitness platform featuring comprehensive exercise library with detailed instructions and muscle targeting. Structured workout plans for all skill levels.",
       demoUrl: "https://gymly-one.vercel.app",
@@ -35,16 +33,26 @@ export default function Projects() {
       stack: ["Next.js", "Tailwind CSS", "GSAP", "Swiper.js"],
       background: "#fdc700",
     },
+    // {
+    //   name: "Personal Portfolio",
+    //   imgUrl: "/images/portfolio.webp",
+    //   description:
+    //     "Modern portfolio website showcasing projects and skills with smooth animations and interactive elements. Built with performance and user experience in mind.",
+    //   demoUrl: "https://ahmed-yasser.vercel.app",
+    //   repoUrl: "https://github.com/ahmed-yasser66/portfolio",
+    //   stack: ["Next.js", "Tailwind CSS", "Framer Motion", "EmailJS"],
+    //   background: "#e1e1e1",
+    // },
     {
-      name: "Personal Portfolio",
-      imgUrl: "/images/portfolio.webp",
+      name: "SPYLT",
+      imgUrl: "/images/ANIMATED_PRODUCT_LANDING PAGE.png",
       description:
-        "Modern portfolio website showcasing projects and skills with smooth animations and interactive elements. Built with performance and user experience in mind.",
-      demoUrl: "https://ahmed-yasser.vercel.app",
-      repoUrl: "https://github.com/ahmed-yasser66/portfolio",
-      stack: ["Next.js", "Tailwind CSS", "Framer Motion", "EmailJS"],
+        "A scroll-based product experience for SPYLT, a soda drink brand. The project combines smooth scroll-driven animations, product storytelling, and interactive visual effects while maintaining high performance and achieving a 100 Lighthouse performance score.",
+      demoUrl: "https://spylt-rho-silk.vercel.app/",
+      repoUrl: "https://github.com/ahmed-yasser66/spylt",
+      stack: ["Next.js", "Tailwind CSS", "GSAP"],
       background: "#e1e1e1",
-    },
+    }
   ] as const;
 
   return (
